@@ -62,7 +62,7 @@ function PlacesForm() {
 
     // a function that edits and add new information to the database
     const placeData = {
-        title, address, addedPhotos,
+        title, address, addedPhotos: addedPhotos.map(ap => ap.fileN,
         description, perks, extraInfo,
         checkIn, checkOut, maxGuests, price
     };
