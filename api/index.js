@@ -19,7 +19,7 @@ const bcryptSalt = bcrypt.genSaltSync(10)
 const jwtSecret = '8116163fcf88fa69ca685be9fd7cbaeb';
 
 // console.log(process.env.MONGO_URL)
-mongoose.connect(process.env.MONGO_URL)
+mongoose.connect('Your MONGO_URI connection')
 
 app.use(cookieParser());
 // parse json
