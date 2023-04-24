@@ -11,6 +11,7 @@ followed by
 `api`
 then run `npm start`
 * After on a different terminal navigate to client and run `npm run dev`.
+* Ensure you set up your MONGO_URI connection in `api/index.js`
 
 ### Note: 
 The user should make sure they run `npm install` on both directory before running those command.
